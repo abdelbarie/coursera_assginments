@@ -1,4 +1,4 @@
-(function () {// *******************************
+// *******************************
 // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
 //
@@ -40,7 +40,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
 // See Lecture 50, part 1
-for (name of names) {
+for (/* fill in parts of the 'for' loop to loop over names array */) {
 
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
@@ -49,22 +49,16 @@ for (name of names) {
   // string object's 'toLowerCase' method on the result so we can compare
   // to lower case character 'j' afterwards.
   // Look up these methods on Mozilla Developer Network web site if needed.
-  // console.log(name)
-  var firstLetter = name.charAt(0);
-  var lowerFirstLetter = firstLetter.toLowerCase();
-  // console.log(firstLetter);
-  // console.log(firstLetter.toLowerCase());
- 
+  // var firstLetter =
 
   // STEP 12:
   // Compare the 'firstLetter' retrieved in STEP 11 to lower case
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (/* fill in condition here */ lowerFirstLetter == "j") {
-    byeSpeaker.speak(name)
+  if (/* fill in condition here */) {
+    // byeSpeaker.xxxx
   } else {
-    helloSpeaker.speak(name)
+    // helloSpeaker.xxxx
   }
-};
-})();
+}
